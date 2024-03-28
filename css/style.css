@@ -479,14 +479,15 @@ ul.email li img {
 }
 
 .about_box_img figure img {
-     width: 91%;
+     width: 84%;
      height: 308px;
+     border-radius: 10px;
 }
 @media(max-width:576px){
      .about_box_img figure img {
           border-radius: 10px;
           height: 220px;
-          width: 100%;
+          width: 99%;
      }
 }
 
