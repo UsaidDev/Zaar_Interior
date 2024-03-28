@@ -92,7 +92,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #212121;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -139,7 +139,7 @@ img {
      margin: 4px;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -244,58 +244,41 @@ button {
 
 header {
      height: 105px;
-     background: #8b1310;
+     background: #0201011C;
      width: 100%;
      padding: 33px 30px;
+     color: #737373;
 }
 
 
 /** menu section **/
+nav li {
+     font-size: 22px;
+   }
+   
+   
+   .port-image {
+     width: 100%;
+   }
+   
+   .gallery_product {
+    margin-bottom: 30px;
+   
+   }
+   
+   .contact-ul li {
+      font-size: 24px;
+      list-style-type: none;
+   }
+   
+   
+   /* MEDIA QUERIES */
+   
+   .logo {
+     width: 70%;
+     height: 100px;
+ }
 
-ul.email {
-     padding-top: -8px;
-     display: flex;
-     align-items: center;
-     justify-content: end;
-     flex-wrap: wrap;
-}
-
-ul.email li {
-     display: inline-block;
-     color: #fff;
-     padding: 0 20px;
-     font-size: 17px;
-}
-
-ul.email li:last-child {
-     padding-right: 0;
-}
-
-ul.email li a {
-     font-size: 16px;
-}
-
-ul.email li a {
-     color: #fff;
-}
-
-ul.email li i {
-     color: #fff;
-     font-size: 20px;
-     padding-right: 10px;
-}
-
-ul.email li a:hover {
-     color: #fe9a0c;
-}
-
-
-
-ul.email li img {
-     padding-right: 10px;
-     height: 30px;
-
-}
 
 .sidepanel {
      width: 0;
@@ -486,7 +469,8 @@ ul.email li img {
      height: 308px;
      border-radius: 10px;
 }
-@media(max-width:576px){
+
+@media(max-width:576px) {
      .about_box_img figure img {
           border-radius: 10px;
           height: 220px;
@@ -494,17 +478,19 @@ ul.email li img {
      }
 }
 
-.instant_img img{
+.instant_img img {
      height: 330px;
      width: 90%;
 }
-@media(max-width:576px){
-     .instant_img img{
+
+@media(max-width:576px) {
+     .instant_img img {
           height: 229px;
           width: 90%;
      }
-     
+
 }
+
 /** end about **/
 
 .titlepage {
@@ -630,12 +616,14 @@ ul.email li img {
 .services_main .services_img figure {
      margin: 0;
 }
-@media(max-width:576px){
+
+@media(max-width:576px) {
      .services_main .services_img figure img {
           width: 70%;
      }
-     
+
 }
+
 .services_main .services_img figure img {
      width: 100%;
 }
@@ -653,10 +641,12 @@ ul.email li img {
      margin: 0 auto;
      opacity: 0;
 }
-.services_img img{
+
+.services_img img {
      height: 200px !important;
      border-radius: 10px;
 }
+
 .ho_dist span {
      display: flex;
      align-items: center;
