@@ -479,17 +479,28 @@ ul.email li img {
 }
 
 .about_box_img figure img {
-     width: 90%;
-     height: 300px;
+     width: 91%;
+     height: 308px;
 }
 @media(max-width:576px){
      .about_box_img figure img {
           border-radius: 10px;
-          height: 300px;
+          height: 220px;
           width: 100%;
      }
 }
 
+.instant_img img{
+     height: 330px;
+     width: 90%;
+}
+@media(max-width:576px){
+     .instant_img img{
+          height: 229px;
+          width: 90%;
+     }
+     
+}
 /** end about **/
 
 .titlepage {
@@ -761,15 +772,7 @@ ul.email li img {
 .instant_img figure {
      margin: 0;
 }
-@media (max-width:576px){
-     .instant_img figure img {
-          height: 210px;
-     }
-}
-.instant_img figure img {
-     width: 100%;
-     height: 300px;
-}
+
 
 
 /** end instant **/
