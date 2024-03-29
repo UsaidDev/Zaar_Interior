@@ -680,6 +680,8 @@ nav li {
 
 .services_main .services_img figure img {
      width: 100%;
+     height: 200px;
+     border-radius: 10px;
 }
 
 /*-------Curve image section---*/
