@@ -620,12 +620,14 @@ nav li {
 @media(max-width:576px) {
      .services_main .services_img figure img {
           width: 70%;
+          border-radius: 50%;
      }
 
 }
 
 .services_main .services_img figure img {
      width: 100%;
+     border-radius: 50%;
 }
 
 .ho_dist {
@@ -637,7 +639,7 @@ nav li {
      left: 0;
      transition: .5s ease;
      background-color: #7c585687;
-     border-radius: 10px;
+     border-radius: 50%;
      margin: 0 auto;
      opacity: 0;
 }
