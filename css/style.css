@@ -621,6 +621,8 @@ nav li {
 @media(max-width:576px) {
      .services_main .services_img figure img {
           width: 70%;
+          height: 70px;
+
      }
      .one-img{
           border-radius: 120px 20px 120px 20px;
@@ -637,6 +639,7 @@ nav li {
      .four-img{
           border-radius:20px 120px 20px 120px ;
           height: 200px !important;
+          padding-left: 0px;
      }
      .five-img{
           border-radius: 120px 20px 120px 20px;
@@ -653,6 +656,7 @@ nav li {
      .eait-img{
           border-radius:20px 120px 20px 120px ;
           height: 200px !important;
+          padding-left: 0px;
      }
      .nine-img{
           border-radius: 120px 20px 120px 20px;
@@ -669,6 +673,7 @@ nav li {
      .towlve-img{
           border-radius:20px 120px 20px 120px ;
           height: 200px !important;
+          padding-left: 0px;
      }
 
 }
