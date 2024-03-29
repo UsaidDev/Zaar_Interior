@@ -163,6 +163,7 @@
         display: block;
         width: 120px;
         float: left;
+        height: 45px;
     }
     .email {
         margin-top: -32px;

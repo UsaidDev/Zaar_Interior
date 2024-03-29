@@ -243,7 +243,7 @@ button {
 /*--------------------------------------------------------------------- header ---------------------------------------------------------------------*/
 
 header {
-     height: 105px;
+     height: 79px;
      background: #0201011C;
      width: 100%;
      padding: 33px 30px;
@@ -276,7 +276,8 @@ nav li {
    
    .logo {
      width: 70%;
-     height: 100px;
+     height: 69px;
+     
  }
 
 
@@ -620,53 +621,119 @@ nav li {
 @media(max-width:576px) {
      .services_main .services_img figure img {
           width: 70%;
-          border-radius: 50%;
+     }
+     .one-img{
+          border-radius: 120px 20px 120px 20px;
+          height: 200px !important;
+     }
+     .two-img{
+          border-radius:20px 120px 20px 120px ;
+          height: 200px !important;
+     }
+     .three-img{
+          border-radius: 120px 20px 120px 20px;
+          height: 200px !important;
+     }
+     .four-img{
+          border-radius:20px 120px 20px 120px ;
+          height: 200px !important;
+     }
+     .five-img{
+          border-radius: 120px 20px 120px 20px;
+          height: 200px !important;
+     }
+     .six-img{
+          border-radius:20px 120px 20px 120px ;
+          height: 200px !important;
+     }
+     .seven-img{
+          border-radius: 120px 20px 120px 20px;
+          height: 200px !important;
+     }
+     .eait-img{
+          border-radius:20px 120px 20px 120px ;
+          height: 200px !important;
+     }
+     .nine-img{
+          border-radius: 120px 20px 120px 20px;
+          height: 200px !important;
+     }
+     .ten-img{
+          border-radius:20px 120px 20px 120px ;
+          height: 200px !important;
+     }
+     .leven-img{
+          border-radius: 120px 20px 120px 20px;
+          height: 200px !important;
+     }
+     .towlve-img{
+          border-radius:20px 120px 20px 120px ;
+          height: 200px !important;
      }
 
 }
 
 .services_main .services_img figure img {
      width: 100%;
-     border-radius: 50%;
 }
 
-.ho_dist {
-     position: absolute;
-     z-index: 9999;
-     top: 0px;
-     right: 0;
-     bottom: 0;
-     left: 0;
-     transition: .5s ease;
-     background-color: #7c585687;
-     border-radius: 50%;
-     margin: 0 auto;
-     opacity: 0;
-}
-
-.services_img img {
+/*-------Curve image section---*/
+.one-img{
+     border-radius: 120px 20px 120px 20px;
      height: 200px !important;
-     border-radius: 10px;
+}
+.two-img{
+     border-radius:20px 120px 20px 120px ;
+     height: 200px !important;
+}
+.three-img{
+     border-radius: 120px 20px 120px 20px;
+     height: 200px !important;
+}
+.four-img{
+     border-radius:20px 120px 20px 120px ;
+     height: 200px !important;
+     padding-left: 60px;
+
+}
+.five-img{
+     border-radius: 120px 20px 120px 20px;
+     height: 200px !important;
+}
+.six-img{
+     border-radius:20px 120px 20px 120px ;
+     height: 200px !important;
+}
+.seven-img{
+     border-radius: 120px 20px 120px 20px;
+     height: 200px !important;
+}
+.eait-img{
+     border-radius:20px 120px 20px 120px ;
+     height: 200px !important;
+     padding-left: 60px;
+}
+.nine-img{
+     border-radius: 120px 20px 120px 20px;
+     height: 200px !important;
+}
+.ten-img{
+     border-radius:20px 120px 20px 120px ;
+     height: 200px !important;
+}
+.leven-img{
+     border-radius: 120px 20px 120px 20px;
+     height: 200px !important;
+}
+.towlve-img{
+     border-radius:20px 120px 20px 120px ;
+     height: 200px !important;
+     padding-left: 60px;
 }
 
-.ho_dist span {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     bottom: 0;
-     top: 0;
-     position: absolute;
-     right: 0;
-     left: 0;
-     flex-wrap: wrap;
-     font-size: 26px;
-     color: #fff;
-     font-weight: 600;
-}
 
-.ho_dist:hover {
-     opacity: 1;
-}
+
+
 
 .padding_0 {
      padding: 0
