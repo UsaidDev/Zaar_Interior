@@ -14,8 +14,7 @@ $(function () {
 		$('.loader_bg').fadeToggle();
 	}, 1500);
 	
-	
-	
+
 	/* Tooltip
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	
@@ -45,6 +44,7 @@ $(function () {
 	$(window).on('scroll', function (){
         scroll = $(window).scrollTop();
         if (scroll >= 100){
+
           $("#back-to-top").addClass('b-show_scrollBut')
         }else{
           $("#back-to-top").removeClass('b-show_scrollBut')
